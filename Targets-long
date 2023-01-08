@@ -1,0 +1,219 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Long cài cái này để đi Monitor mạng đó mà
+remark = Công cụ mang tính chất vui là chính, phục vụ mục đích riêng của tác giả. Tuyệt đối không được sử dụng để đánh giá chất lượng mạng.
+
++ InternetVietnam
+
+menu = Internet Việt Nam
+title = Internet Việt Nam
+
+++ VNPT
+
+menu = VNPT
+title = VNPT
+
++++ VNPTHCM
+menu = VNPT Hồ Chí Minh
+title = VNPT Hồ Chí Minh
+host = speedtest3.vtn.com.vn
+
++++ VNPTHN
+menu = VNPT Hà Nội
+title = VNPT Hà Nội
+host = speedtest2.vtn.com.vn
+
++++ VNPTDNA
+menu = VNPT Đà Nẵng
+title = VNPT Đà Nẵng
+host = speedtest5.vtn.com.vn
+
+++ Viettel
+
+menu = Viettel
+title = Viettel
+
++++ ViettelHCM
+menu = Viettel Hồ Chí Minh
+title = Viettel Hồ Chí Minh
+host = speedtestkv3b.viettel.vn
+
++++ ViettelHN
+menu = Viettel Hà Nội
+title = Viettel Hà Nội
+host = speedtestkv1a.viettel.vn
+
++++ ViettelDNA
+menu = Viettel Đà Nẵng
+title = Viettel Đà Nẵng
+host = speedtestkv2a.viettel.vn
+
+++ FPT
+
+menu = FPT
+title = FPT
+
++++ FPTHCM
+menu = FPT Hồ Chí Minh
+title = FPT Hồ Chí Minh
+host = speedtest.fpt.vn
+
++++ FPTHN
+menu = FPT Hà Nội
+title = FPT Hà Nội
+host = speedtesthn.fpt.vn
+
++++ FPTDNA
+menu = FPT Đà Nẵng
+title = FPT Đà Nẵng
+host = speedtestdng.fpt.vn
+
+++ Mobifone
+
+menu = Mobifone
+title = Mobifone
+
++++ MobifoneHCM
+menu = Mobifone Hồ Chí Minh
+title = Mobifone Hồ Chí Minh
+host = sp1.mobifone.vn
+
++++ MobifoneHN
+menu = Mobifone Hà Nội
+title = Mobifone Hà Nội
+host = st5.mobifone.vn
+
++++ MobifoneDNA
+menu = Mobifone Đà Nẵng
+title = Mobifone Đà Nẵng
+host = st9.mobifone.vn
+
+++ SCTV
+
+menu = SCTV
+title = SCTV
+
++++ SCTVHCM
+menu = SCTV Hồ Chí Minh
+title = SCTV Hồ Chí Minh
+host = speedtest.sctv.com.vn
+
++++ SCTVHN
+menu = SCTV Hà Nội
+title = SCTV Hà Nội
+host = speedtest-hanoi.sctv.com.vn
+
++++ SCTVDNA
+menu = SCTV Đà Nẵng
+title = SCTV Đà Nẵng
+host = speedtest-danang.sctv.com.vn
+
+++ CMC
+
+menu = CMC
+title = CMC
+
++++ CMCHCM
+menu = CMC Hồ Chí Minh
+title = CMC Hồ Chí Minh
+host = hcmspeedtest.cmctelecom.vn
+
++++ CMCHN
+menu = CMC Hà Nội
+title = CMC Hà Nội
+host = hnispeedtest.cmctelecom.vn
+
++ InternetSites
+
+menu = Internet Sites
+title = Internet Sites
+
+++ LongCon
+
+menu = Long Con
+title = Long Con website
+
++++ longconnet
+
+menu = longcon.net
+title = longcon.net
+host = longcon.net
+
++++ longnamevn
+
+menu = long.name.vn
+title = long.name.vn
+host = long.name.vn
+
+++ THLMCL
+
+menu = THLMCL
+title = THLMCL website
+
++++ thlmclcom
+
+menu = thlmcl.com
+title = thlmcl.com
+host = thlmcl.com
+
++++ portalthlmclcom
+
+menu = portal.thlmcl.com
+title = portal.thlmcl.com
+host = portal.thlmcl.com
+
++++ licensingthlmclcom
+
+menu = licensing.thlmcl.com
+title = licensing.thlmcl.com
+host = licensing.thlmcl.com
+
+++ Facebook
+menu = Facebook
+title = Facebook
+host = facebook.com
+
+++ Youtube
+menu = YouTube
+title = YouTube
+host = youtube.com
+
+++ GoogleSearch
+menu = Google
+title = google.com
+host = google.com
+
++ DNS
+menu = DNS
+title = DNS
+
+++ GoogleDNS
+menu = Google DNS
+title = Google DNS
+
++++ 8888
+menu = 8.8.8.8
+title = Google DNS 8.8.8.8
+host = 8.8.8.8
+
++++ 8844
+menu = 8.8.4.4
+title = Google DNS 8.8.4.4
+host = 8.8.4.4
+
+++ CloudflareDNS
+menu = Cloudflare DNS
+title = Cloudflare DNS
+
++++ 1111
+menu = 1.1.1.1
+title = Cloudflare DNS 1.1.1.1
+host = 1.1.1.1
+
++++ 1001
+menu = 1.0.0.1
+title = Cloudflare DNS 1.0.0.1
+host = 1.0.0.1
