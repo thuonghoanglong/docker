@@ -6,8 +6,8 @@ sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
 curl -fsSL "https://download.docker.com/linux/ubuntu/gpg" | sudo gpg --dearmor -o "/usr/share/keyrings/docker-archive-keyring.gpg"
 echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by="/usr/share/keyrings/docker-archive-keyring.gpg"] https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable" | sudo tee "/etc/apt/sources.list.d/docker.list" > /dev/null
+  deb [arch=$(dpkg --print-architecture) signed-by="/usr/share/keyrings/docker-archive-keyring.gpg"] "https://download.docker.com/linux/ubuntu" \
+  $(lsb_release -cs) stable | sudo tee "/etc/apt/sources.list.d/docker.list" > /dev/null
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo groupadd docker
@@ -19,33 +19,33 @@ docker-compose --version
 docker volume create portainer_data
 docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
 sudo docker run -d -p 500:500/udp -p 4500:4500/udp -p 1701:1701/tcp -p 1194:1194/udp -e PSK=long -e USERNAME=long -e PASSWORD=long siomiz/softethervpn
-cd
+sudo cd
 sudo apt install git
 git clone "https://github.com/boschkundendienst/guacamole-docker-compose.git"
-cd "guacamole-docker-compose"
+sudo cd "guacamole-docker-compose"
 ./prepare.sh
 wget "https://raw.githubusercontent.com/thuonghoanglong/docker/main/docker-compose-remote.yml"
 mv "docker-compose-remote.yml" "docker-compose.yml"
 docker-compose up -d
 docker-compose stop
-cd
+sudo cd
 mkdir "smokeping"
-cd "smokeping"
+sudo cd "smokeping"
 wget "https://raw.githubusercontent.com/thuonghoanglong/docker/main/docker-compose-ping.yml"
 mv "docker-compose-ping.yml" "docker-compose.yml"
 docker-compose up -d
 docker-compose stop
-cd "config"
+sudo cd "config"
 wget "https://raw.githubusercontent.com/thuonghoanglong/docker/main/Targets-long"
 mv "Targets-long" "Targets"
 docker-compose start
 docker-compose stop
-cd
+sudo cd
 mkdir "nginxproxymanager"
 wget "https://raw.githubusercontent.com/thuonghoanglong/docker/main/docker-compose-nginx.yml"
 mv "docker-compose-ping.yml" "docker-compose.yml"
 docker-compose up -d
-cd
+sudo cd
 docker-compose stop
 docker-compose start
 echo "================================="
